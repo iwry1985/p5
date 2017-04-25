@@ -1,0 +1,1126 @@
+@media all and (max-width: 1220px) {
+	/*ACCUEIL----------------------------------------*/
+	.welcome_button a {
+		padding: 6px;
+	}
+
+	.welcome_pitch {
+		font-size: 1.5em;
+		line-height: 20px;
+	}
+
+	/*INSCRIPTIONS-----------------------------------*/
+	.inscription_form form {
+		width: 50%;
+	}
+
+	/*REINITIALISATION MDP-----------------------------------*/
+	.explications_mdp {
+		width: 60%;
+	}
+
+	/*ADMIN CHARACTERS---------------------*/
+	.single_characters {
+		height: auto;
+	}
+}
+
+
+
+@media all and (max-width: 1200px) {
+	/*HOME------------------------------------------------*/
+	.user_presentation_home_avatar img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.lien_profil a {
+		font-size: 1.2em;
+	}
+
+	.lien_profil {
+		position: relative;
+	}
+
+	.single_weekly img {
+		width: 150px;
+		padding-right: 5px !important;
+	}
+
+	.single_friend {
+		width: 22%;
+	}
+
+	.menu_home {
+		width: 60%;
+	}
+
+	/*PROFIL------------------------------------------------*/
+	.count_shows_profil {
+		padding: 15px;
+	}
+
+	.count_shows_profil_box {
+		width: 100%;
+	}
+
+	.update_profil_form {
+		width: 71%;
+	}
+
+
+	/*WATCHLIST------------------------------------------------*/
+	.infos_shows_coming_back {
+		width: 72%;
+	}
+
+	.decompte_box, {
+		width: 92%;
+	}
+
+	.dec_watch {
+		width: 95%;
+	}
+
+	/*ADMIN SHOW-----------------------*/
+	.form_banner {
+		width: 65%;
+	}
+
+	/*FICHE SERIE------------------------*/
+	.show_poster {
+		width: 38%;
+	}
+
+	.watch_note {
+		right: 0;
+	}
+
+	.show_infos {
+		display: block;
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+	.synopsis_stats {
+		flex-direction: column;
+		position: relative;
+		margin-top: 30px;
+	}
+
+	.show_network {
+		margin-top: 5px;
+		position: relative;
+		text-align: right;
+	}
+
+	.show_synopsis, .show_stats {
+		width: 100%;
+	}
+
+	.show_name h2 {
+		font-size: 1.5em;
+		padding-bottom: 0;
+	}
+
+	.show_vf h3 {
+		font-size: 1.3em;
+	}
+}
+
+@media all and (max-width: 1197px) {
+	.encart_avatar {
+		position: absolute;
+	}
+
+	.dec_watch {
+		width: 96%;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	/*HOME------------------------------------------------*/
+	.user_presentation_home_avatar img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.lien_profil a {
+		font-size: 1.2em;
+	}
+
+	.lien_profil {
+		position: relative;
+	}
+
+	.weekly_ep_box h5 {
+		font-size: 0.9em;
+	}
+
+	.single_weekly img {
+		width: 100%;
+		margin: 0;
+		padding: 0 !important;
+		text-align: center;
+	}
+
+	.single_friend {
+		width: 28%;
+	}
+
+	/*PROFIL------------------------------------------------*/
+	.single_poster {
+		width: 150px;
+		padding-right: 8px;
+	}
+
+	.single_poster img {
+		width: 100%;
+	}
+
+	.user_header {
+		flex-direction: column-reverse;
+		padding-bottom: 10px
+	}
+
+	.count_shows_profil {
+		padding: 10px;
+		margin-bottom: 40px;
+		border-bottom: 1px dotted #f2f2f2;
+	}
+
+	.user_avatar {
+		width: 250px;
+		height: 250px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.user_avatar img {
+		margin-left: 0px;
+	}
+
+	.encart_avatar {
+		box-shadow: none;
+		margin-left: 0px;
+	}
+
+	.menu_profil {
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.count_most_watched {
+		font-size: 0.7em;
+		width: 94%;
+	}
+
+	.profil_slider {
+		width: 90%;
+	}
+
+	.decompte_profil  {
+		width: 100%;
+	}
+
+	.user_infos {
+		margin-left: 0;
+	}
+
+
+	/*WATCHLIST------------------------------------------------*/
+	.header_watchlist {
+		flex-direction: column;
+	}
+
+	.avatar_watchlist {
+		margin-bottom: 10px;
+	}
+
+	.infos_shows_coming_back {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.decompte_box {
+		width: 100%;
+		border-right: 1px solid #212121;
+	}
+
+	.section_random {
+		justify-content: space-between;
+	}
+
+	.accroche_random {
+		width: 40%;
+	}
+
+	.plus_ep {
+		margin-left: 12%;
+	}
+
+	.info_show_watch {
+		width: 250px;
+		background-color: #f2f2f2;
+		box-shadow: none;
+	}
+
+	.infoshow_watchlist {
+		background-color: #323232;
+	}
+
+	.info_show_watch img {
+		width: 100%;
+	}
+
+	.watchlist_status select {
+		width: 160px;
+	}
+
+	.status_icon img {
+		width: 50px;
+		height: 50px;
+	}
+
+	#random_selec {
+		position: relative;
+		height: 100%;
+	}
+
+	.btn_close {
+		margin-bottom: 20px;
+	}
+
+	.encart_random {
+		width: 100%;
+	}
+
+	/*FICHE SERIE----------------------------------------*/
+	.infos_user_watch  {
+		flex-direction: column;
+	}
+
+	div.show_box {
+		flex-direction: column-reverse;
+	}
+	
+	.show_poster {
+		display: none;
+	}
+
+	img.img_star {
+		left: 0;
+		top: -85px;
+	}
+
+	.show_note {
+		margin-left: 40px;
+	}
+
+	.synopsis_sugg {
+		font-size: 0.7em;
+	}
+
+	.lien_serie_sugg {
+		padding: 0;
+	}
+
+	.infos_watch {
+		display: inline;
+	}
+
+	.watch_note {
+		width: auto;
+	}
+
+	.infos_progress {
+		width: 100%
+	}
+
+	/*BILAN-----------------------*/
+	.menu_bilan_month {
+		font-size: 0.8em;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.single_poster {
+		width: 170px;
+	}
+
+	.count_most_watched {
+		width: 95%;
+	}
+}
+
+@media all and (max-width: 920px) {
+	/*UPDATE PROFIL-------------------------------------*/
+	.nav_icon img {
+		width: 25px;
+		height: 25px;
+	}
+
+	.frontend_content, .backend_content, .welcome_banner, .welcome_insc {
+		margin-top: 57px;
+	}
+}
+
+
+@media all and (max-width: 992px) {
+	/*UPDATE PROFIL-------------------------------------*/
+	.update_profil_form {
+		width: 92%;
+	}
+}
+
+
+
+@media all and (max-width: 900px) {
+	/*ACCUEIL----------------------------------------*/
+	.welcome_insc {
+		position: relative;
+		padding-top: 20px;
+	}
+
+	.welcome_insc h1 {
+		margin: 0;
+		margin-top: 0px;
+		font-size: 1.8em;
+	}
+
+	.welcome_button {
+		padding-bottom: 10px;
+		margin-bottom: 0;
+		background-color: #323232;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.welcome_pitch {
+		padding-top: 40px;
+	}
+
+	/*INSCRIPTIONS-----------------------------------*/
+	.inscription_form form {
+		width: 70%;
+	}
+
+	/*REINITIALISATION MDP-----------------------------------*/
+	.explications_mdp {
+		width: 80%;
+	}
+
+	.listing_box {
+		width: 95%;
+	}
+
+	/*ADMIN SHOW------------------------------*/
+	.img_show {
+		justify-content: center;
+	}
+
+	.form_poster {
+		width: 23%;
+	}
+
+	.nav_icon img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.search_input input {
+		margin-top: 0px;
+	}
+
+	.frontend_content, .backend_content, .welcome_banner, .welcome_insc {
+		margin-top: 52px;
+	}
+}
+
+@media all and (max-width: 870px) {
+	.nav_icon_admin {
+		display: none;
+	}
+
+	.lien_profil a {
+		font-size: 0.9em;
+	}
+}
+
+
+@media all and (max-width: 845px) {
+	.nav_icon img {
+		display: none;
+	}
+
+}
+
+@media all and (max-width: 767px) {
+	/*NAV----------------------------------------*/
+	div.navbar-header {
+		width: 100%;
+	}
+
+	.nav_icon_admin img, .nav_icon img {
+		display: inline;
+		margin-left: 10px;
+	}
+
+	.nav_icon img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+
+
+
+@media all and (max-width: 750px) {
+	/*PROFIL------------------------------------------------*/
+	.all_shows_count {
+		flex-direction: column;
+	}
+
+	.count_shows_profil {
+		justify-content: center;
+	}
+
+	.single_poster {
+		width: 165px;
+	}
+
+	/*HOME------------------------------------------------*/
+	.header_home {
+		flex-direction: column;
+	}
+
+	.user_presentation_home_avatar {
+		text-align: center;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted #f2f2f2;
+	}
+
+	.user_presentation_home_avar img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.lien_profil {
+		width: 150px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.infos_show_home {
+		width: 100%;
+	}
+
+	.single_friend {
+		width: 210px;
+	}
+
+	.count_shows_home {
+		height: auto;
+	}
+
+	.count_shows_box {
+		justify-content: center;
+	}
+
+	#hide_ep {
+		width: 25%;
+	}
+
+	.menu_home {
+		position: relative;
+		width: 97%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu_home ul {
+		padding: 0;
+	}
+
+	.menu_home_visionnages {
+		text-align: center;
+	}
+
+	.menu_home_visionnages h4 {
+		margin-bottom: 0px;
+	}
+
+	/*FICHE SERIE------------------------------------------------*/
+	#hide_char {
+		width: 25%;
+	}
+
+	.synopsis_sugg {
+		display: none;
+	}
+
+	.season_ {
+		width: 10%;
+	}
+
+	/*BILAN---------------------------------------------*/
+	.bilan_single_count {
+		font-size: 0.9em;
+	}
+
+}
+
+@media all and (max-width: 730px) {
+	.single_poster {
+		width: 160px;
+	}
+}
+
+@media all and (max-width: 710px) {
+	.single_poster {
+		width: 150px;
+	}
+
+	.menu_bilan_month {
+		justify-content: center;
+		padding-right: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu_bilan_month li {
+		width: 25%;
+	}
+
+	.menu_bilan_month li:last-child {
+	border-right: 1px solid #0f70b7;
+}
+
+}
+
+@media all and (max-width: 700px) {
+	.single_sugg {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 665px) {
+	.single_poster {
+		width: 24.5%;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.watch_note {
+		position: relative;
+		margin-left: auto;
+		padding-bottom: 10px;
+	}
+
+	.infos_user_watch {
+		background-color: #1693a5;
+	}
+
+	.ep_decompte {
+		width: 100%;
+	}
+
+	.decompte_ep_name, .bigger  {
+		font-size: 1em;
+	}
+
+	.btn_close {
+		width: 50%;
+	}
+
+	.error_404 {
+		font-size: 2em;
+	}
+
+	/*BILAN------------------------*/
+	.bilan_count {
+		flex-direction: column;
+	}
+
+	.bilan_single_count {
+		width: 100%;
+		border-bottom: 1px dotted #272727;
+		padding: 10px 0px;
+		border-right: none;
+	}
+
+	.bilan_single_count:last-child {
+		border-bottom: none;
+	}
+}
+
+
+@media all and (max-width: 600px) {
+	/*PROFIL------------------------------------------------*/
+	.infos_show_home {
+		text-align: center;
+	}
+
+	/*WATCHLIST------------------------------------------------*/
+	.section_random {
+		flex-direction: column;
+	}
+
+	.accroche_random {
+		width: 95%;
+		text-align: center;
+	}
+
+	.section_random form {
+		margin-top: 20px;
+	}
+
+	div.listing_running_shows {
+		margin: 0;
+	}
+
+	.single_listing {
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
+	}
+
+	.info_show_watch {
+		margin-right: auto;
+		margin-left: auto;
+		width: 350px;
+	}
+
+	.watchlist_status select {
+		width: 260px;
+	}
+
+	.plus_ep {
+		margin-left: 38%;
+	}
+
+	.new img {
+		width: 35px !important;
+	}
+}
+
+
+@media all and (max-width: 585px) {
+	/*LISTING---------------------------------------------*/
+	.listing_box {
+		width: 100%;
+	}
+}
+
+
+
+@media all and (max-width: 560px) {
+	/*INSCRIPTIONS-----------------------------------*/
+	.inscription_form form {
+		width: 100%;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	/*PROFIL------------------------------------------------*/
+	.profil_barre {
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+
+	.btn_update_profil {
+		position: relative;
+	}
+
+	.btn_update_profil a {
+		width: 100%;
+		padding: 10px;
+		height: auto;
+		font-size: 1em;
+	}
+
+	.btn_update_profil a span {
+		margin-top: -8px;
+	}
+
+	.user_username {
+		width: 100%;
+		height: auto;
+		padding-bottom: 5px;
+		margin-left: 0px;
+		padding-left: 10px
+	}
+
+	.user_username h3, .user_presentation p {
+		margin-left: 0px;
+	}
+
+	.menu_profil li {
+		font-size: 0.9em;
+	}
+
+	.single_poster {
+		width: 150px;
+	}
+
+	.count_seen_shows {
+		width: 80%;
+	}
+
+	.count_most_watched {
+		width: 142px;
+	}
+
+	#hide_ep {
+		font-size: 1em;
+	}
+
+	/*FICHE SERIE---------------------------------*/
+	.show_name h2 {
+		font-size: 1.2em;
+		line-height: 20px;
+	}
+
+	.show_vf h3 {
+		font-size: 1em;
+	}
+}
+
+@media all and (max-width: 519px) {
+	.single_poster {
+		width: 33%;
+	}
+
+	.count_most_watched {
+		width: 94%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	/*ACCUEIL----------------------------------------*/
+	.welcome_button {
+		display: inline-block;
+	}
+
+	.welcome_pitch, .welcome_explications {
+		width: 90%;
+	}
+
+	/*HOME------------------------------------*/
+	.slider_ep_aired_yesterday {
+		justify-content: center;
+	}
+
+	/*INSCRIPTIONS-----------------------------------*/
+	.inscription_form form label {
+		font-size: 1em;
+	}
+
+	.welcome_insc h2 {
+		font-size: 2em;
+	}
+
+	.check_remember {
+		padding: 5px 8px 2px 8px;
+	}
+
+	/*REINITIALISATION MDP-----------------------------------*/
+	.explications_mdp {
+		font-size: 1em;
+	}
+
+	/*FICHE SERIE-----------------------------*/
+	.btn_edit_char, .btn_edit_ep {
+		margin-left: 0;
+	}
+
+	.show_network {
+		padding-bottom: 10px;
+	}
+
+	.show_status, .show_renew {
+		width: 20%;
+	}
+
+	/*PROFIL---------------*/
+	.profil_slider {
+		width: 85%;
+	}
+
+	.airing_this_week h5 {
+		font-size: 1.1em
+	}
+
+	.bigger {
+		font-size: 1em;
+	}
+
+	/*UPDATE PROFIL-----------------------*/
+	.update_avatar {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.update_avatar_form {
+		width: 250px;
+	}
+
+	/*BILAN-----------------------------------*/
+	.menu_bilan_month li {
+		width: 50%;
+	}
+
+}
+
+
+@media all and (max-width: 480px) {
+	/*PROFIL------------------------------------------------*/
+	.menu_profil ul {
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.single_poster {
+		width: 50%;
+	}
+
+	.count_most_watched {
+		width: 96%;
+		font-size: 0.6em;
+		visibility: visible;
+		bottom: 0 !important;
+	}
+
+	.single_poster:hover>.count_most_watched {
+		transform: none;
+	}
+
+	.count_shows {
+		line-height: 15px;
+	}
+
+	.menu_home {
+		font-size: 0.9em;
+	}
+
+
+	/*WATCHLIST------------------------------------------------*/
+	.accroche_random {
+		width: 80%;
+	}
+
+	.listing_running_shows {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	th, .th_ep, .th_ep_date, .th_icon_eye {
+		display: block;
+		width: 100% !important;
+		border-top: 1px solid rgba(50,50,50,0.1) !important;
+		margin: 0 !important;
+	}
+
+	.tableau_ep .th_icon_eye {
+		border-bottom: 1px solid #0f70b7;
+		width: 100% !important;
+	}
+
+	thead {
+		display: none;
+	}
+
+	.listing_seasons_to_watch {
+		margin-bottom: 10px;
+	}
+
+	.infos_shows_coming_back {
+		width: 90%;
+		margin-left: 4%;
+	}
+
+	.info_show_watch {
+		width: 250px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.info_show_watch img {
+		width: 100%;
+	}
+
+	.watchlist_status select {
+		width: 160px;
+	}
+
+	.status_icon img {
+		width: 50px;
+	}
+
+	/*ADMIN SHOW-------------------------------*/
+	.img_show {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.form_poster, .form_banner {
+		width: 90%;
+	}
+
+	.season_ {
+		width: 12%;
+	}	
+}
+
+
+@media all and (max-width: 415px) {
+
+
+	/*FICHE SERIES---------------------------*/
+	.status_icon {
+		display: none;
+	}
+
+	.watch_status {
+		margin-left: 2%;
+	}
+
+	.show_status, .show_renew {
+		font-size: 0.9em;
+	}
+
+	.show_status, .show_renew {
+		position: relative;
+		width: 100%;
+		border-left: none;
+	}
+
+	.show_name {
+		padding: 0;
+	}
+
+	.show_etat {
+		margin-top: 10px;
+	}
+
+	.show_org img {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.synospsis_sugg {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	/*PROFIL----------------------------*/
+	.user_username h3 {
+		font-size: 1.8em
+	}
+
+	/*FOOTER-----------------------------*/
+	.reseaux {
+		text-align: center;
+	}
+
+	.reseaux img {
+		width: 30px;
+	}
+
+	.copyright {
+		font-size: 1em;
+	}
+
+	.menu_home ul {
+		flex-direction: column;
+	}
+
+	.single_ban {
+		width: 90%;
+	}
+
+	.single_ban img {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.show_users_banners {
+		text-align: center;
+	}
+
+}
+
+
+
+@media all and (max-width: 350px) {
+	/*WATCHLIST--------------------------------*/
+	.section_random form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+	}
+
+	.section_random form select {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	/*LISTING--------------------------------*/
+	.single_show {
+		width: 140px;
+	}
+
+	/*FICHE SERIE------------------------*/
+	.status_form select, .form_del_show input, .watch_note select, #hide_char, .decompte_ep_jours, .next_ep {
+		font-size: 1em;
+	}
+
+	.show_infos_txt p {
+		font-size: 0.8em;
+		line-height: 13px;
+	}
+
+	img.img_star {
+		width: 80px;
+		top: -50px;
+	}
+
+	.show_note {
+		top: -35px;
+		font-size: 1em;
+		margin-left: 20px;
+		line-height: 7px;
+	}
+
+	.friends_watching {
+		justify-content: center;
+		margin-left: 0;
+	}
+
+	/*PROFIL------------------------*/
+	.count_shows_profil_box, .count_shows_home {
+		font-size: 0.9em;
+	}
+
+	.count_shows {
+		line-height: 8px;
+	}
+
+	.error_404 {
+		font-size: 1.5em;
+		padding-top: 100px;
+	}
+
+	/*BILAN----------------------------*/
+	.menu_bilan_month li, .menu_bilan_month li:last-child  {
+		width: 100%;
+		border-right: none;
+	}
+
+}

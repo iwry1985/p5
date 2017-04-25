@@ -1,0 +1,244 @@
+.backend_content .row {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.backend_content {
+	padding-bottom: 50px;
+}
+
+.btn_delete_img input {
+	width: 100%;
+}
+
+.error {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.btn_edit {
+	color: white;
+	font-size: 0.5em;
+	position: absolute;
+	top: 0;
+	margin-left: 10px;
+}
+
+.btn_edit:hover {
+	color: #0f70b7;
+}
+
+.btn_edit_characters {
+	position: absolute;
+	color: white;
+	font-size: 1em;
+	right : 0px;
+	top: 0px;
+	background-color: #323232;
+	padding : 5px 5px 5px 7px;
+}
+
+.btn_edit_characters:hover, .btn_edit_char:hover, .btn_edit_ep:hover {
+	color: #ffeb3b;
+	background-color : #31b0d5;
+}
+
+
+.btn_edit_char, .btn_edit_ep {
+	position: absolute;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 315px;
+	margin-top: 5px;
+	z-index: 10;
+}
+
+.btn_edit_withoutBckg, .btn_edit_withoutBckg:hover {
+	background-color: transparent;
+}
+
+.btn_edit_ep {
+	margin-left: 135px;
+}
+
+
+.btn_lien {
+	text-align: center;
+	border: 0px;
+	margin-top: 10px;
+}
+
+.btn_lien a:hover, .btn_show_form a:hover {
+	background-color: #323232;
+	color: white;
+	border-color: #323232;
+}
+
+.btn_modif {
+	border-radius: 0px;
+}
+
+._form_show {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+._form_show input, ._form_show select, ._form_show textarea, .add_char_form input .upload_form input, .admin_characters_box input, .btn_lien, .single_network input {
+	border-radius: 0px;
+}
+
+._form_show form label, .add_char_form form label, .char_submit, .single_characters label, .delete_char_btn, .single_char_add label, .single_network label, .update_profil_form label {
+	color: white;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #0f70b7;
+	margin-bottom: 0;
+	font-family: playtime, arial, verdana;
+	padding: 5px;
+	font-size: 1.1em;
+	text-shadow: 2px 2px 2px rgba(50,50,50,0.5);
+	text-align: left;
+}
+
+.btn_show_form {
+	margin-top: 50px;
+}
+
+.btn_show_form input, .btn_show_form a, .delete_char_btn, .btn_show_form a {
+	margin: 10px 0px 5px 0px;
+	border-radius: 0px;
+	padding: 12px;
+	color: #f8f8f8;
+	width: 100%;
+}
+
+.submit_form_show {
+	background-color: #1693a5;
+	border: none;
+}
+
+.img_show {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form_poster {
+	width: 26%;
+	margin: 0px	10px 15px 15px;
+}
+
+
+.form_banner {
+	width: 69%;
+	margin: 0px 15px 15px 10px;
+}
+
+.form_poster img, .form_banner img, form.upload_form input, .admin_characters_box img  {
+	width: 100%;
+}
+
+.box_btn_lien {
+	width: 100%;
+	text-align: center;
+}
+
+.single_network .upload_form input {
+	padding : 5px 7px;
+}
+
+
+/*-------CHARACTERS-------------------------------------------------------------------------------------------------*/
+
+.admin_characters_box {
+	padding-top: 50px;
+}
+
+.single_characters, .single_char_add {
+	height: 580px;
+	margin-bottom: 20px;
+	border: 1px solid #323232;
+	padding: 10px;
+	background-color: white;
+}
+
+.single_char_add {
+	height: 720px;
+}
+
+.single_characters img, .single_char_add img {
+	position: relative;
+}
+
+.delete_char_btn {
+	padding: 5px;
+	background-color: #cc0e08;
+	text-align: center;
+}
+
+.delete_char_btn:hover {
+	background-color: #272727;
+	border: 1px solid #323232;
+}
+
+
+.single_characters label, .delete_char_btn, .single_char_add label, .single_network label {
+	margin-top: 0;
+}
+
+.char_added {
+	background-color: #0f70b7;
+}
+
+.add_char_form form label {
+	margin-top: 0;
+}
+
+.char_submit {
+	background-color: #1b5e20;
+	margin: 0;
+	border: none;
+	text-align: center;
+}
+
+.add_char_form input {
+	font-size: 1em;
+}
+
+/*-------NETWORKS-------------------------------------------------------------------------------------------------*/
+.networks_box {
+	padding-top: 50px;
+}
+
+
+.single_network {
+	margin: 10px;
+	text-align: center;
+}
+
+.single_network img {
+	height: 40px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+/*-------EPISODES-------------------------------------------------------------------------------------------------*/
+.admin_ep form input:first-child {
+	width: 500px;
+}
+
+.admin_ep, .admin_ep_airdate {
+	margin-top: -5px;
+}
+
+.btn_edit_episode {
+	position: absolute;
+	font-size: 0.8em;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+
+.admin_ep_airdate form input:first-child {
+	width: 140px;
+}

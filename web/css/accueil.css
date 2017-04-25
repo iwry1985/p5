@@ -1,0 +1,328 @@
+.container-fluid {
+	padding: 0;
+}
+
+.welcome_banner {
+	position: relative;
+	border-bottom: 1px solid #323232;
+	box-shadow: 1px 2px 6px rgba(50,50,50,0.3);
+	margin-top: 62px;
+}
+
+.welcome_seriesdom {
+	color: #f2f2f2;
+	text-shadow: 3px 2px 4px #323232;
+	font-size: 2.2em;
+	font-family: Alex_Bold, verdana, arial;
+}
+
+.welcome {
+	font-family: playtime, pacificoregular, courier;
+	color: #FFEB3B;
+}
+
+.DOM {
+	color: #1693a5;
+	text-shadow: 3px 2px 4px #323232;	
+}
+
+.welcome_insc h1 {
+	margin: 0;
+	padding-bottom: 10px;
+	text-shadow: 3px 2px 4px black;
+	margin-bottom: 10px;
+	margin-top: -50px;
+}
+
+.welcome_banner img {
+	width: 100%;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.welcome_insc {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.welcome_button {
+	z-index : 3;
+	margin-bottom: -28px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.welcome_button a {
+	display: block;
+	width: 280px;
+	height: 55px;
+	padding: 6px 12px;
+	font-size: 2em;
+	background-color: #FB8C00;
+	color: #FFEB3B;
+	border-color: #323232;
+	border-radius: 0px;
+	-webkit-transition: all ease-in 200ms;
+	-ms-transition: all ease-in 200ms;
+	-o-transition: all ease-in 200ms;
+	-moz-transition: all ease-in 200ms;
+	transition: all ease-in 200ms;
+	overflow: hidden;
+	font-family: pacificoregular, mistral, courier;
+	text-shadow: 2px 3px 3px rgba(50,50,50,0.8);
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.welcome_button a.btn.btn-warning:first-child {
+	background-color: #0F70B7;
+}
+
+.welcome_button a.btn.btn-warning span {
+	-webkit-transition: all ease-in 200ms;
+	-ms-transition: all ease-in 200ms;
+	-o-transition: all ease-in 200ms;
+	-moz-transition: all ease-in 200ms;
+	transition: all ease-in 200ms;
+	margin-top: 0px;
+	opacity: 0;
+	overflow: hidden;
+	margin-top: -9px;
+	margin-left: -45px;
+	position: absolute;
+}
+
+.welcome_button a:hover {
+	background-color: #1693a5;
+	background-image: radial-gradient(circle at center, #1693a5, #288594);
+	color: white;
+	border-color: #323232;
+	box-shadow: -1px 2px 10px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.welcome_button a:first-child {
+	margin-right: 10px;
+}
+
+.welcome_button a.btn.btn-warning:hover span {
+	font-size: 1.5em;
+	color: yellow;
+	opacity: 0.9;	
+	font-weight: normal;
+}
+
+.bloc_dark {
+	background-color: #272727;
+	margin-top: 0px;
+}
+
+.bloc_light {
+	background-color: #f8f8f8;
+	margin-top: -50px;
+}
+
+.welcome_pitch {
+	width: 60%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	font-size: 1.8em;
+	color: #f2f2f2;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	font-family: playtime, verdana, arial;
+	line-height: 30px;
+}
+
+.tes {
+	font-weight: bold;
+	color: #FFEB3B;
+	font-size: 1.3em;
+	font-family: Alex_Bold, verdana, arial;
+}
+
+.welcome_pitch img {	
+	width: 200px;
+	position: absolute;
+	margin-left: -110px;
+}
+
+.welcome_explications {
+	width: 40%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.welcome_explications h2 {
+	color: #1693a5;
+	font-size: 2.5em;
+}
+
+/*##########################################
+########## INSCRIPTION/CONNEXION ###########
+############################################*/
+.welcome_insc h2 {
+	font-size: 3em;
+	font-family: pacificoregular, verdana, arial;
+	color: white;
+}
+
+.cx_titre {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.ligne_deco {
+	position: relative;
+	width: 15%;
+	text-align: center;
+	border: 2px solid #FFEB3B;
+	margin: 0px 20px 0px 30px;
+	border-radius: 90px;
+}
+
+.inscription_form {
+	width: 100%;
+	height: 100%;
+	background-color: #1693a5;
+	padding: 30px;
+}
+
+.inscription_form form {
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2px;
+	margin-bottom: 30px;
+}
+
+.inscription_form form label {
+	color: #f8f8f8;
+	margin-top: 20px;
+	width: 100%;
+	background-color: rgba(50,50,50,0.5);
+	margin-bottom: 0;
+	font-family: playtime, arial, verdana;
+	padding: 10px;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 2px rgba(50,50,50,0.5);
+}
+
+.inscription_form input {
+	background-color: #F4F4F4;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+.register_button {
+	display: flex;
+	justify-content: center;
+}
+
+.register_button input {
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 0px;
+	width: 230px;
+	height: 55px;
+	padding: 6px 12px;
+	font-size: 2em;
+	background-color: #FB8C00;
+	color: #FFEB3B;
+	text-shadow: 2px 3px 3px rgba(32,32,32,0.3);
+	border: 1px solid #323232;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.register_button input:hover {
+	background-color: #0F70B7;
+	border: 1px solid #323232;
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+.form_deco {
+	border: 2px solid white;
+}
+
+.check_remember {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	background-color: rgba(255,255,255,0.5);
+	padding: 12px 10px 2px 15px;
+}
+
+.check_remember input {
+	margin-top: 0px;
+	border-radius: 0px;
+	width: 30px;
+	height: 30px;
+	padding: 0px 0px;
+	font-size: 2em;
+	text-shadow: 2px 3px 3px rgba(32,32,32,0.3);
+	border: 1px solid #323232;
+	margin-left: 0;
+	box-shadow: none;
+}
+
+.check_remember input:hover {
+	background-color: #0F70B7;
+	border: 1px solid #323232;
+	box-shadow: none;
+}
+
+.inscription_form form label:last-child {
+	margin-top: 5px;
+	background-color: transparent;
+	color: #323232;
+	padding: 0;
+	text-shadow: none;
+}
+
+#mdpPerdu {
+	text-align: center;
+}
+
+#mdpPerdu a {
+	color: rgba(255,255,255,0.7);
+	text-decoration: underline;
+}
+
+#mdpPerdu a:hover {
+	color: #FFEB3B;
+}
+
+/*/-----------------------------------------------------------/*/
+.explications_mdp {
+	color: #f2f2f2;
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.1em;
+	text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+	text-align: justify;
+}
+
+.ex_big {
+	font-size: 1.5em;
+}
+
+.logo_deco {
+	text-align: center;
+}
+
+.logo_deco img {
+	width: 600px;
+}
