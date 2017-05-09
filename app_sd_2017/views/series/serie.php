@@ -296,7 +296,7 @@ donnees_cachees($show->id()); ?>
 				<div class="synopsis_stats">
 					<div class="show_synopsis">
 						<h4>Synopsis</h4>
-						<p><?= htmlspecialchars_decode($show->synopsis()); ?></p>
+						<p><?= strip_tags($show->synopsis()); ?></p>
 						<p class="source">Source : allocine.fr</p>
 					</div><!--end show_synopsis-->
 
@@ -528,7 +528,7 @@ if(isset($similaires) && !empty($similaires)) { ?>
 				} ?>
 				
 					<span class="synopsis_sugg">
-						<?= htmlspecialchars_decode($sugg->synopsis()); ?>
+						<?= strip_tags($sugg->synopsis()); ?>
 					</span>
 					<a href="<?= base_url('series/show/'.$sugg->id()); ?>" class="lien_serie_sugg">Voir fiche</a>
 			</div>

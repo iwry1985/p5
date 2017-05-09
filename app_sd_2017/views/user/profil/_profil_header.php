@@ -58,15 +58,16 @@
 				<div class="encart_avatar encart_attente_demande hide">
 					<span class="btn btn-warning btn_friend">En attente de validation</span>
 				</div>
+				
 			</div><!--end user_avatar-->
 
 
 			<div class="user_infos">
 				<div class="profil_barre">
 					<div class="user_username">
-						<h3 class="kalambold"><?= htmlspecialchars_decode($profil->username()) ?></h3>
+						<h3 class="kalambold"><?= strip_tags($profil->username()) ?></h3>
 						<div class="user_presentation">
-							<p class="playtime"><?= htmlspecialchars_decode($profil->presentation()) ?></p>
+							<p class="playtime"><?= strip_tags($profil->presentation()) ?></p>
 						</div>
 					</div><!--end user_username-->
 
@@ -79,10 +80,7 @@
 				</div><!--end profil_barre-->
 
 				<div class="count_shows_profil_box">
-					<?php
-					if($profil->count_seen_shows() != 0 || $profil->shows_toBegin() != 0) {
-						count_shows_box($profil, 'count_shows_profil');
-					} ?>
+					<?php count_shows_box($profil, 'count_shows_profil'); ?>
 				</div><!--end count_shows_profil-->
 
 			</div><!--end user_infos-->

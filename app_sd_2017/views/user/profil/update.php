@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<label for="presentation">A propos de toi (100 caractères max.)</label><br/>
-						<textarea class="form_control" name="presentation" maxlength="100" class="presentation" rows="10" cols="50"><?= !empty($user->presentation()) ? htmlspecialchars($user->presentation()) : '' ?></textarea>
+						<textarea class="form_control" name="presentation" maxlength="100" class="presentation" rows="10" cols="50"><?= !empty($user->presentation()) ? strip_tags($user->presentation()) : '' ?></textarea>
 					</div>
 				</div>
 
